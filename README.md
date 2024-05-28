@@ -1,5 +1,6 @@
 # GCIFormer: Global Context Interaction Transformer for Volumetric Medical Image Segmentation
 
+All code and data will be made available after the peer review process.
 
 ## Model Overview
 
