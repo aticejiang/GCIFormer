@@ -2,7 +2,7 @@
 
 
 ## Model Overview
----
+
 <p align="center">
 <img src="figs/GCIFormer_overall.png" width=100% height=100% 
 class="center">
