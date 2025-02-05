@@ -35,6 +35,10 @@ Please use `Ubuntu 20.04` for environment setting.
 
 ## Dataset preparation
 
+Download from our netdisk [Baidu](https://pan.baidu.com/s/1NO0X-RTACDBjrjmtwQbnBQ) and put them into the `data` folder, which includes original, raw, and preprocessed data. The dataset used in our paper was preprocessed according to the following guidelines.
+
+GCIFormer is built on [nnU-Net](https://github.com/MIC-DKFZ/nnUNet) framework. If you want to train GCIFormer on your own dataset, please follow the nnUNet [guidelines](https://github.com/MIC-DKFZ/nnUNet/blob/master/documentation/dataset_format.md) to prepare the dataset.
+
 1. Data download:
    - [BraTS21](https://www.med.upenn.edu/cbica/brats2021/)
    - [KiTS19](https://kits19.grand-challenge.org/)
@@ -52,8 +56,6 @@ Please use `Ubuntu 20.04` for environment setting.
    ```bash
    nnUNetv2_plan_and_preprocess -d DATASET_ID --verify_dataset_integrity
    ```
-
-Download from our netdisk, which includes original, raw, and preprocessed data [Baidu](https://pan.baidu.com/s/1NO0X-RTACDBjrjmtwQbnBQ).
 
 ## Train models
 
