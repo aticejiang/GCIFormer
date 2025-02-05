@@ -46,12 +46,14 @@ Please use `Ubuntu 20.04` for environment setting.
 3. Dataset conversion:
    
    Conversion via specific programs:
-   e.g. ```python Dataset127_BraTS21.py``` for BraTS21 dataset or download from our preprocessed data [Baidu](https://pan.baidu.com/s/1NO0X-RTACDBjrjmtwQbnBQ?pwd=wkze).
+   e.g. ```python Dataset127_BraTS21.py``` for BraTS21 dataset. The converted data is denote as nnUNet_raw data.
 
 4. Preprocessing:
    ```bash
    nnUNetv2_plan_and_preprocess -d DATASET_ID --verify_dataset_integrity
    ```
+
+Download from our netdisk, which includes original, raw, and preprocessed data [Baidu](https://pan.baidu.com/s/1NO0X-RTACDBjrjmtwQbnBQ).
 
 ## Train models
 
