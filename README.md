@@ -72,3 +72,17 @@ nnUNetv2_train DATASET_ID 3d_fullres_bsXX 0 -tr
 Thank the authors of [nnU-Net](https://github.com/MIC-DKFZ/nnUNet) for making their valuable code publicly available.
 
 ## Citation
+If you find our work useful in your research, please consider citing:
+```
+@article{JIANGGCIFormer,
+title = {GCIFormer: Global Context Interaction Transformer for volumetric medical image segmentation},
+journal = {Biomedical Signal Processing and Control},
+volume = {112},
+pages = {108522},
+year = {2026},
+issn = {1746-8094},
+doi = {https://doi.org/10.1016/j.bspc.2025.108522},
+url = {https://www.sciencedirect.com/science/article/pii/S174680942501033X},
+author = {Jiaxu Jiang and Heng-Chao Li and Sen Lei and Nanqing Liu and Kezhou Li and Yongjian Sun},
+keywords = {Semantic gap, Tumor segmentation, Attention mechanism, Transformer},
+```
